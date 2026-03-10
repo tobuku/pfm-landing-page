@@ -7,20 +7,17 @@
   <meta name="description" content="Get on-demand photos and video of your property from verified local Boots on the Ground. Verify rehab progress, confirm property condition, and reduce investment risk — without traveling." />
   <meta property="og:title" content="ProveForMe – Local Eyes on Your Property" />
   <meta property="og:description" content="On-demand property verification from verified local Boots on the Ground. Built for remote real estate investors." />
-  <meta property="og:url" content="https://proveforme.com" />
+  <meta property="og:url" content="https://proveforus.com" />
   <meta property="og:type" content="website" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
-        }
-      }
+      theme: { extend: { fontFamily: { sans: ['Inter','system-ui','sans-serif'] } } }
     }
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
   <style>
     *{box-sizing:border-box}
     body{font-family:'Inter',sans-serif}
@@ -66,9 +63,7 @@
     }
     .btn-green:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(5,150,105,.5);}
 
-    .card{
-      transition:transform .2s,box-shadow .2s;
-    }
+    .card{transition:transform .2s,box-shadow .2s;}
     .card:hover{transform:translateY(-4px);box-shadow:0 20px 44px rgba(0,0,0,.1);}
 
     .step-num{
@@ -78,9 +73,7 @@
       display:flex;align-items:center;justify-content:center;
     }
 
-    .fade-up{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s ease;}
-    .fade-up.show{opacity:1;transform:translateY(0);}
-
+    /* GSAP targets start invisible — set via gsap.set in script */
     nav.scrolled{
       background:rgba(12,31,61,.96)!important;
       backdrop-filter:blur(10px);
@@ -88,18 +81,6 @@
     }
 
     .mock-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 28px 64px rgba(0,0,0,.32);}
-
-    .video-box{
-      background:linear-gradient(135deg,#162a50,#0c1f3d);
-      border-radius:14px;border:1px solid rgba(255,255,255,.1);
-    }
-    .play-btn{
-      width:80px;height:80px;border-radius:50%;
-      background:rgba(245,158,11,.9);
-      display:flex;align-items:center;justify-content:center;
-      transition:transform .2s,background .2s;cursor:pointer;
-    }
-    .play-btn:hover{transform:scale(1.1);background:#f59e0b;}
   </style>
 </head>
 <body class="bg-white text-gray-900">
@@ -112,15 +93,13 @@
     <a href="#">
       <img src="pfm-logo.png" alt="ProveForMe" class="h-10 w-auto">
     </a>
-
     <div class="hidden md:flex items-center gap-8">
       <a href="#how-it-works" class="text-white/75 hover:text-white text-sm font-medium transition-colors">How It Works</a>
       <a href="#use-cases"    class="text-white/75 hover:text-white text-sm font-medium transition-colors">Use Cases</a>
       <a href="#marketplace"  class="text-white/75 hover:text-white text-sm font-medium transition-colors">For Investors</a>
     </div>
-
     <div class="flex items-center gap-3">
-      <a href="https://www.proveforme.com/login" class="hidden sm:inline text-white/75 hover:text-white text-sm font-medium transition-colors">Sign In</a>
+      <a href="https://www.proveforme.com/login"    class="hidden sm:inline text-white/75 hover:text-white text-sm font-medium transition-colors">Sign In</a>
       <a href="https://www.proveforme.com/register" class="btn-gold text-sm py-2.5 px-5">Create Account</a>
     </div>
   </div>
@@ -134,28 +113,29 @@
   <div class="max-w-7xl mx-auto w-full">
     <div class="grid lg:grid-cols-2 gap-14 items-center">
 
-      <!-- Left -->
-      <div class="relative z-10">
-        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-2 mb-6">
+      <!-- Left — centered -->
+      <div class="relative z-10 text-center lg:text-center flex flex-col items-center">
+
+        <div id="hero-badge" class="inline-flex items-center gap-2 bg-white/10 border border-white/20 rounded-full px-4 py-2 mb-6">
           <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
           <span class="text-white/90 text-sm font-medium">On-Demand Property Verification</span>
         </div>
 
-        <h1 class="text-4xl sm:text-5xl lg:text-[58px] font-black text-white leading-[1.08] mb-6">
+        <h1 id="hero-headline" class="text-4xl sm:text-5xl lg:text-[58px] font-black text-white leading-[1.08] mb-6">
           Know the Condition<br/>of Your Property<br/>
           <span style="color:#f59e0b">Without Being There</span>
         </h1>
 
-        <p class="text-white/75 text-lg sm:text-xl leading-relaxed mb-8 max-w-xl">
+        <p id="hero-sub" class="text-white/75 text-lg sm:text-xl leading-relaxed mb-8 max-w-xl mx-auto">
           Get on-demand photos and video from verified local <strong class="text-white">Boots on the Ground</strong>. Verify rehab progress, confirm property condition, and document proof for your lender — without leaving your desk.
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4 mb-10">
+        <div id="hero-btns" class="flex flex-col sm:flex-row gap-4 mb-10 justify-center">
           <a href="https://www.proveforme.com/register" class="btn-gold text-center text-base">Create Investor Account</a>
           <a href="https://www.proveforme.com/register" class="btn-outline text-center text-base">Become Boots on the Ground</a>
         </div>
 
-        <div class="flex flex-wrap gap-x-6 gap-y-3">
+        <div id="hero-trust" class="flex flex-wrap gap-x-6 gap-y-3 justify-center">
           <span class="flex items-center gap-2 text-white/65 text-sm">
             <svg class="w-4 h-4 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
             No travel required
@@ -172,7 +152,7 @@
       </div>
 
       <!-- Right: Dashboard mockup -->
-      <div class="relative z-10 flex justify-center lg:justify-end">
+      <div id="hero-mockup" class="relative z-10 flex justify-center lg:justify-end">
         <div class="relative w-full max-w-sm">
 
           <!-- Main card -->
@@ -187,19 +167,19 @@
 
             <!-- Photo grid -->
             <div class="grid grid-cols-2 gap-1 p-1 bg-gray-200">
-              <div class="aspect-video rounded-sm overflow-hidden relative">
+              <div class="photo-item aspect-video rounded-sm overflow-hidden relative">
                 <img src="b4frnt.JPG" alt="Before – Front exterior" class="w-full h-full object-cover">
                 <span class="absolute top-1 left-1 bg-red-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">BEFORE</span>
               </div>
-              <div class="aspect-video rounded-sm overflow-hidden relative">
+              <div class="photo-item aspect-video rounded-sm overflow-hidden relative">
                 <img src="afterfrnt.jpeg" alt="After – Front exterior" class="w-full h-full object-cover">
                 <span class="absolute top-1 left-1 bg-green-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">AFTER</span>
               </div>
-              <div class="aspect-video rounded-sm overflow-hidden relative">
+              <div class="photo-item aspect-video rounded-sm overflow-hidden relative">
                 <img src="b4ktn.JPG" alt="Before – Kitchen" class="w-full h-full object-cover">
                 <span class="absolute top-1 left-1 bg-red-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">BEFORE</span>
               </div>
-              <div class="aspect-video rounded-sm overflow-hidden relative">
+              <div class="photo-item aspect-video rounded-sm overflow-hidden relative">
                 <img src="aftrktn.JPG" alt="After – Kitchen" class="w-full h-full object-cover">
                 <span class="absolute top-1 left-1 bg-green-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">AFTER</span>
               </div>
@@ -227,7 +207,7 @@
           </div>
 
           <!-- Floating: draw approved -->
-          <div class="absolute -top-5 -right-5 bg-white rounded-xl shadow-xl px-4 py-3 border border-gray-100">
+          <div id="hero-float-1" class="absolute -top-5 -right-5 bg-white rounded-xl shadow-xl px-4 py-3 border border-gray-100">
             <div class="flex items-center gap-2">
               <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
                 <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
@@ -240,7 +220,7 @@
           </div>
 
           <!-- Floating: GPS verified -->
-          <div class="absolute -bottom-5 -left-5 bg-white rounded-xl shadow-xl px-4 py-3 border border-gray-100">
+          <div id="hero-float-2" class="absolute -bottom-5 -left-5 bg-white rounded-xl shadow-xl px-4 py-3 border border-gray-100">
             <div class="flex items-center gap-2">
               <div class="w-8 h-8 rounded-full flex items-center justify-center" style="background:#fef3c7">
                 <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
@@ -262,23 +242,23 @@
 <!-- ======================================================
      STAT BAR
 ====================================================== -->
-<section style="background:linear-gradient(90deg,#0c1f3d,#1a3d6e,#0c1f3d)" class="py-6 px-6">
+<section id="stat-bar" style="background:linear-gradient(90deg,#0c1f3d,#1a3d6e,#0c1f3d)" class="py-6 px-6">
   <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
     <div>
-      <div class="text-3xl font-black" style="color:#f59e0b">48hr</div>
+      <div id="stat-48" class="text-3xl font-black" style="color:#f59e0b">48hr</div>
       <div class="text-white/60 text-sm mt-1">Average turnaround</div>
     </div>
     <div>
-      <div class="text-3xl font-black" style="color:#f59e0b">100%</div>
+      <div id="stat-100" class="text-3xl font-black" style="color:#f59e0b">100%</div>
       <div class="text-white/60 text-sm mt-1">Independent verification</div>
     </div>
     <div>
-      <div class="text-3xl font-black" style="color:#f59e0b">GPS</div>
+      <div id="stat-gps" class="text-3xl font-black" style="color:#f59e0b">GPS</div>
       <div class="text-white/60 text-sm mt-1">Stamped photos &amp; video</div>
     </div>
     <div>
-      <div class="text-3xl font-black" style="color:#f59e0b">$0</div>
-      <div class="text-white/60 text-sm mt-1">Travel cost to you</div>
+      <div id="stat-trip" class="text-3xl font-black" style="color:#f59e0b">Skip the Trip</div>
+      <div class="text-white/60 text-sm mt-1">Pay for verification, not airfare</div>
     </div>
   </div>
 </section>
@@ -288,22 +268,23 @@
      PROBLEM
 ====================================================== -->
 <section class="py-24 px-6 bg-gray-50">
-  <div class="max-w-4xl mx-auto text-center fade-up">
-    <div class="inline-flex items-center gap-2 bg-red-50 border border-red-100 rounded-full px-4 py-2 mb-6">
-      <svg class="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
-      <span class="text-red-700 text-sm font-medium">The Problem Every Remote Investor Faces</span>
+  <div class="max-w-4xl mx-auto text-center">
+
+    <div class="section-intro">
+      <div class="inline-flex items-center gap-2 bg-red-50 border border-red-100 rounded-full px-4 py-2 mb-6">
+        <svg class="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+        <span class="text-red-700 text-sm font-medium">The Problem Every Remote Investor Faces</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-6">
+        You Can't Be at Every Property.<br/>
+        <span class="text-red-600">But You Need to Know What's There.</span>
+      </h2>
+      <p class="text-gray-500 text-lg leading-relaxed mb-14 max-w-2xl mx-auto">
+        When you own property in another city, verifying its condition requires time, money, and travel you don't always have. Before requesting a loan draw or making investment decisions, you need fast, independent visual proof.
+      </p>
     </div>
 
-    <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-6">
-      You Can't Be at Every Property.<br/>
-      <span class="text-red-600">But You Need to Know What's There.</span>
-    </h2>
-
-    <p class="text-gray-500 text-lg leading-relaxed mb-14 max-w-2xl mx-auto">
-      When you own property in another city, verifying its condition requires time, money, and travel you don't always have. Before requesting a loan draw or making investment decisions, you need fast, independent visual proof.
-    </p>
-
-    <div class="grid sm:grid-cols-3 gap-6 text-left">
+    <div class="grid sm:grid-cols-3 gap-6 text-left" data-stagger>
       <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 card">
         <div class="w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center mb-4">
           <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
@@ -328,6 +309,7 @@
         <p class="text-gray-500 text-sm leading-relaxed">Hard money lenders require proof before releasing funds. Without documentation, your rehab timeline stalls.</p>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -336,21 +318,22 @@
      SOLUTION
 ====================================================== -->
 <section style="background:#0c1f3d" class="py-24 px-6">
-  <div class="max-w-5xl mx-auto text-center fade-up">
-    <div class="inline-flex items-center gap-2 border border-amber-500/30 bg-amber-500/15 rounded-full px-4 py-2 mb-6">
-      <svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-      <span class="text-amber-300 text-sm font-medium">The ProveForMe Solution</span>
+  <div class="max-w-5xl mx-auto text-center">
+
+    <div class="section-intro">
+      <div class="inline-flex items-center gap-2 border border-amber-500/30 bg-amber-500/15 rounded-full px-4 py-2 mb-6">
+        <svg class="w-4 h-4 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        <span class="text-amber-300 text-sm font-medium">The ProveForMe Solution</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-black text-white mb-5">
+        Local Eyes on Your Property.<br/><span style="color:#f59e0b">On Demand.</span>
+      </h2>
+      <p class="text-white/65 text-lg leading-relaxed mb-14 max-w-2xl mx-auto">
+        ProveForMe connects investors with verified local <strong class="text-white">Boots on the Ground</strong> who capture photos and video of properties on demand. Simple. Fast. Independent.
+      </p>
     </div>
 
-    <h2 class="text-3xl sm:text-4xl font-black text-white mb-5">
-      Local Eyes on Your Property.<br/><span style="color:#f59e0b">On Demand.</span>
-    </h2>
-
-    <p class="text-white/65 text-lg leading-relaxed mb-14 max-w-2xl mx-auto">
-      ProveForMe connects investors with verified local <strong class="text-white">Boots on the Ground</strong> who capture photos and video of properties on demand. Simple. Fast. Independent.
-    </p>
-
-    <div class="grid sm:grid-cols-3 gap-6 text-left">
+    <div class="grid sm:grid-cols-3 gap-6 text-left" data-stagger>
       <div class="bg-white/5 border border-white/10 rounded-2xl p-6 card">
         <div class="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style="background:rgba(245,158,11,.2)">
           <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
@@ -375,6 +358,7 @@
         <p class="text-white/55 text-sm leading-relaxed">A fraction of the cost of a flight or full inspection. Pay only for what you need, when you need it.</p>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -383,8 +367,9 @@
      HOW IT WORKS
 ====================================================== -->
 <section class="py-24 px-6 bg-white" id="how-it-works">
-  <div class="max-w-5xl mx-auto fade-up">
-    <div class="text-center mb-16">
+  <div class="max-w-5xl mx-auto">
+
+    <div class="text-center mb-16 section-intro">
       <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-100 rounded-full px-4 py-2 mb-4">
         <span class="text-blue-700 text-sm font-medium">Simple 4-Step Process</span>
       </div>
@@ -394,11 +379,11 @@
 
     <div class="relative">
       <!-- connector line desktop -->
-      <div class="hidden lg:block absolute top-6 left-[calc(12.5%+24px)] right-[calc(12.5%+24px)] h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300 z-0"></div>
+      <div id="step-connector" class="hidden lg:block absolute top-6 left-[calc(12.5%+24px)] right-[calc(12.5%+24px)] h-0.5 bg-gradient-to-r from-amber-300 via-amber-500 to-amber-300 z-0"></div>
 
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
 
-        <div class="text-center">
+        <div class="how-step text-center">
           <div class="flex justify-center mb-4"><div class="step-num">1</div></div>
           <div class="bg-gray-50 rounded-2xl p-5">
             <div class="w-10 h-10 rounded-xl bg-amber-50 flex items-center justify-center mx-auto mb-3">
@@ -409,7 +394,7 @@
           </div>
         </div>
 
-        <div class="text-center">
+        <div class="how-step text-center">
           <div class="flex justify-center mb-4"><div class="step-num">2</div></div>
           <div class="bg-gray-50 rounded-2xl p-5">
             <div class="w-10 h-10 rounded-xl bg-amber-50 flex items-center justify-center mx-auto mb-3">
@@ -420,7 +405,7 @@
           </div>
         </div>
 
-        <div class="text-center">
+        <div class="how-step text-center">
           <div class="flex justify-center mb-4"><div class="step-num">3</div></div>
           <div class="bg-gray-50 rounded-2xl p-5">
             <div class="w-10 h-10 rounded-xl bg-amber-50 flex items-center justify-center mx-auto mb-3">
@@ -431,7 +416,7 @@
           </div>
         </div>
 
-        <div class="text-center">
+        <div class="how-step text-center">
           <div class="flex justify-center mb-4"><div class="step-num">4</div></div>
           <div class="bg-gray-50 rounded-2xl p-5">
             <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center mx-auto mb-3">
@@ -452,8 +437,9 @@
      USE CASES
 ====================================================== -->
 <section class="py-24 px-6 bg-gray-50" id="use-cases">
-  <div class="max-w-5xl mx-auto fade-up">
-    <div class="text-center mb-14">
+  <div class="max-w-5xl mx-auto">
+
+    <div class="text-center mb-14 section-intro">
       <div class="inline-flex items-center gap-2 bg-amber-50 border border-amber-100 rounded-full px-4 py-2 mb-4">
         <span class="text-amber-700 text-sm font-medium">When Investors Use ProveForMe</span>
       </div>
@@ -461,7 +447,7 @@
       <p class="text-gray-500 text-lg max-w-xl mx-auto">From acquisition to exit, ProveForMe gives you eyes on the ground at every critical moment.</p>
     </div>
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" data-stagger>
 
       <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 card">
         <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:#fef3c7">
@@ -520,8 +506,9 @@
      MARKETPLACE — TWO SIDES
 ====================================================== -->
 <section class="py-24 px-6 bg-white" id="marketplace">
-  <div class="max-w-5xl mx-auto fade-up">
-    <div class="text-center mb-14">
+  <div class="max-w-5xl mx-auto">
+
+    <div class="text-center mb-14 section-intro">
       <div class="inline-flex items-center gap-2 bg-gray-100 border border-gray-200 rounded-full px-4 py-2 mb-4">
         <span class="text-gray-700 text-sm font-medium">Two Sides of the Platform</span>
       </div>
@@ -532,7 +519,7 @@
     <div class="grid md:grid-cols-2 gap-6">
 
       <!-- INVESTORS -->
-      <div class="rounded-3xl p-8 border-2 border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 card">
+      <div class="mkt-card rounded-3xl p-8 border-2 border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 card">
         <div class="w-14 h-14 rounded-2xl flex items-center justify-center mb-5" style="background:linear-gradient(135deg,#f59e0b,#d97706)">
           <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-2 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
         </div>
@@ -561,7 +548,7 @@
       </div>
 
       <!-- BOOTS ON THE GROUND -->
-      <div id="boots" class="rounded-3xl p-8 border-2 border-green-200 bg-gradient-to-br from-green-50 to-teal-50 card">
+      <div id="boots" class="mkt-card rounded-3xl p-8 border-2 border-green-200 bg-gradient-to-br from-green-50 to-teal-50 card">
         <div class="w-14 h-14 rounded-2xl flex items-center justify-center mb-5" style="background:linear-gradient(135deg,#059669,#047857)">
           <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
         </div>
@@ -598,13 +585,14 @@
      TRUST
 ====================================================== -->
 <section class="py-24 px-6 bg-gray-50">
-  <div class="max-w-5xl mx-auto fade-up">
-    <div class="text-center mb-14">
+  <div class="max-w-5xl mx-auto">
+
+    <div class="text-center mb-14 section-intro">
       <h2 class="text-3xl sm:text-4xl font-black text-gray-900 mb-3">Built for Trust. Built for Speed.</h2>
       <p class="text-gray-500 text-lg max-w-xl mx-auto">Every feature of ProveForMe is designed to give investors and lenders confidence in the verification they receive.</p>
     </div>
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5" data-stagger>
 
       <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-center card">
         <div class="w-14 h-14 rounded-2xl flex items-center justify-center mx-auto mb-4" style="background:#fef3c7">
@@ -644,45 +632,20 @@
 
 
 <!-- ======================================================
-     VIDEO SECTION
-====================================================== -->
-<section style="background:#0c1f3d" class="py-24 px-6">
-  <div class="max-w-3xl mx-auto text-center fade-up">
-    <div class="inline-flex items-center gap-2 border border-amber-500/30 bg-amber-500/15 rounded-full px-4 py-2 mb-6">
-      <span class="text-amber-300 text-sm font-medium">Watch It in Action</span>
-    </div>
-    <h2 class="text-3xl sm:text-4xl font-black text-white mb-4">See How ProveForMe Works</h2>
-    <p class="text-white/65 text-lg mb-10">See how investors post requests and receive verified property documentation in hours, not days.</p>
-
-    <div class="video-box aspect-video flex items-center justify-center">
-      <div class="text-center">
-        <div class="play-btn mx-auto mb-4">
-          <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-        </div>
-        <p class="text-white/40 text-sm">Demo video coming soon</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ======================================================
      FINAL CTA
 ====================================================== -->
 <section class="py-28 px-6 bg-gradient-to-br from-amber-50 via-white to-green-50">
-  <div class="max-w-3xl mx-auto text-center fade-up">
+  <div class="max-w-3xl mx-auto text-center section-intro">
     <h2 class="text-4xl sm:text-5xl font-black text-gray-900 mb-5 leading-tight">
       Get Local Eyes on Your<br/>Property <span style="color:#f59e0b">Today</span>
     </h2>
     <p class="text-gray-500 text-xl leading-relaxed mb-10 max-w-xl mx-auto">
       If you can't be at the property, ProveForMe can. Join investors and local Boots on the Ground building a smarter way to verify properties.
     </p>
-
     <div class="flex flex-col sm:flex-row gap-4 justify-center mb-6">
       <a href="https://www.proveforme.com/register" class="btn-gold text-lg px-10 py-5 text-center">Create Investor Account</a>
       <a href="https://www.proveforme.com/register" class="btn-green text-lg px-10 py-5 text-center">Join as Boots on the Ground</a>
     </div>
-
     <p class="text-gray-400 text-sm">Free to create an account. No credit card required to get started.</p>
   </div>
 </section>
@@ -693,46 +656,147 @@
 ====================================================== -->
 <footer style="background:#0c1f3d" class="py-12 px-6">
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-
     <a href="#">
       <img src="pfm-logo.png" alt="ProveForMe" class="h-9 w-auto">
     </a>
-
     <div class="flex flex-wrap items-center gap-6">
       <a href="#how-it-works" class="text-white/40 hover:text-white/70 text-sm transition-colors">How It Works</a>
       <a href="#use-cases"    class="text-white/40 hover:text-white/70 text-sm transition-colors">Use Cases</a>
       <a href="#marketplace"  class="text-white/40 hover:text-white/70 text-sm transition-colors">For Investors</a>
       <a href="#boots"        class="text-white/40 hover:text-white/70 text-sm transition-colors">Boots on the Ground</a>
     </div>
-
     <p class="text-white/30 text-sm">&copy; 2026 ProveForMe.com. All rights reserved.</p>
   </div>
 </footer>
 
 
 <!-- ======================================================
-     JS
+     GSAP + ScrollTrigger
 ====================================================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script>
-  // Sticky nav
-  const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 50);
+gsap.registerPlugin(ScrollTrigger);
+
+// ── Sticky nav ──────────────────────────────────────────
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// ── Smooth scroll anchors ───────────────────────────────
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const t = document.querySelector(a.getAttribute('href'));
+    if (t) { e.preventDefault(); t.scrollIntoView({ behavior:'smooth', block:'start' }); }
   });
+});
 
-  // Fade-up on scroll
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('show'); });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
+// ══════════════════════════════════════════════════════════
+// 1. HERO ENTRANCE TIMELINE
+// ══════════════════════════════════════════════════════════
+// Set initial states before animation begins (prevents flash)
+gsap.set(['#hero-badge','#hero-headline','#hero-sub','#hero-btns','#hero-trust'], { opacity:0 });
+gsap.set('#hero-mockup',  { opacity:0, x:60 });
+gsap.set('#hero-float-1', { opacity:0, scale:0.6 });
+gsap.set('#hero-float-2', { opacity:0, scale:0.6 });
+gsap.set('.photo-item',   { clipPath:'inset(0 100% 0 0)' });
 
-  // Smooth scroll anchors
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
-    a.addEventListener('click', e => {
-      const t = document.querySelector(a.getAttribute('href'));
-      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+const heroTL = gsap.timeline({ delay:0.15, defaults:{ ease:'power3.out' } });
+heroTL
+  .to('#hero-badge',    { opacity:1, y:0, duration:0.5,  from:{ y:-20 } })
+  .fromTo('#hero-badge',    { opacity:0, y:-20 }, { opacity:1, y:0,  duration:0.5 }, 0)
+  .fromTo('#hero-headline', { opacity:0, y:45  }, { opacity:1, y:0,  duration:0.75 }, 0.15)
+  .fromTo('#hero-sub',      { opacity:0, y:30  }, { opacity:1, y:0,  duration:0.65 }, 0.35)
+  .fromTo('#hero-btns',     { opacity:0, y:25  }, { opacity:1, y:0,  duration:0.55 }, 0.5)
+  .fromTo('#hero-trust',    { opacity:0, y:20  }, { opacity:1, y:0,  duration:0.5  }, 0.65)
+  .fromTo('#hero-mockup',   { opacity:0, x:60  }, { opacity:1, x:0,  duration:0.9, ease:'power2.out' }, 0.3)
+  .fromTo('#hero-float-1',  { opacity:0, scale:0.6 }, { opacity:1, scale:1, duration:0.55, ease:'back.out(1.7)' }, 0.9)
+  .fromTo('#hero-float-2',  { opacity:0, scale:0.6 }, { opacity:1, scale:1, duration:0.55, ease:'back.out(1.7)' }, 1.05)
+  .to('.photo-item', { clipPath:'inset(0 0% 0 0)', duration:0.6, stagger:0.13, ease:'power2.inOut' }, 0.85);
+
+// ══════════════════════════════════════════════════════════
+// 2. FLOATING BADGE LOOPS
+// ══════════════════════════════════════════════════════════
+heroTL.then(() => {
+  gsap.to('#hero-float-1', { y:-7, duration:2.6, ease:'sine.inOut', yoyo:true, repeat:-1 });
+  gsap.to('#hero-float-2', { y:7,  duration:3.1, ease:'sine.inOut', yoyo:true, repeat:-1, delay:0.7 });
+});
+
+// ══════════════════════════════════════════════════════════
+// 3. STAT BAR COUNTERS
+// ══════════════════════════════════════════════════════════
+ScrollTrigger.create({
+  trigger: '#stat-bar',
+  start:   'top 85%',
+  once:    true,
+  onEnter: () => {
+    // 48hr
+    const o1 = { v:0 };
+    gsap.to(o1, { v:48, duration:1.8, ease:'power2.out',
+      onUpdate: () => { document.getElementById('stat-48').textContent = Math.ceil(o1.v) + 'hr'; }
     });
-  });
+    // 100%
+    const o2 = { v:0 };
+    gsap.to(o2, { v:100, duration:2.1, ease:'power2.out',
+      onUpdate: () => { document.getElementById('stat-100').textContent = Math.ceil(o2.v) + '%'; }
+    });
+    // GPS + Skip the Trip: pop in
+    gsap.fromTo(['#stat-gps','#stat-trip'],
+      { opacity:0, scale:0.5 },
+      { opacity:1, scale:1, duration:0.6, stagger:0.2, ease:'back.out(1.7)' }
+    );
+  }
+});
+
+// ══════════════════════════════════════════════════════════
+// 4. SECTION INTROS (headings + subtext)
+// ══════════════════════════════════════════════════════════
+gsap.utils.toArray('.section-intro').forEach(el => {
+  gsap.fromTo(el,
+    { opacity:0, y:35 },
+    { opacity:1, y:0, duration:0.8, ease:'power2.out',
+      scrollTrigger: { trigger:el, start:'top 80%' }
+    }
+  );
+});
+
+// ══════════════════════════════════════════════════════════
+// 5. STAGGER CARD REVEALS
+// ══════════════════════════════════════════════════════════
+gsap.utils.toArray('[data-stagger]').forEach(container => {
+  gsap.fromTo(container.querySelectorAll('.card'),
+    { opacity:0, y:40 },
+    { opacity:1, y:0, duration:0.65, stagger:0.12, ease:'power2.out',
+      scrollTrigger: { trigger:container, start:'top 75%' }
+    }
+  );
+});
+
+// Marketplace cards (not in a data-stagger container)
+gsap.fromTo('.mkt-card',
+  { opacity:0, y:40 },
+  { opacity:1, y:0, duration:0.7, stagger:0.2, ease:'power2.out',
+    scrollTrigger: { trigger:'#marketplace', start:'top 70%' }
+  }
+);
+
+// ══════════════════════════════════════════════════════════
+// 6. HOW IT WORKS — STEP CONNECTOR LINE DRAW + STEP STAGGER
+// ══════════════════════════════════════════════════════════
+gsap.fromTo('#step-connector',
+  { scaleX:0 },
+  { scaleX:1, transformOrigin:'left center', duration:1.2, ease:'power2.inOut',
+    scrollTrigger: { trigger:'#how-it-works', start:'top 65%' }
+  }
+);
+
+gsap.fromTo('.how-step',
+  { opacity:0, y:35 },
+  { opacity:1, y:0, duration:0.6, stagger:0.15, ease:'power2.out',
+    scrollTrigger: { trigger:'#how-it-works', start:'top 65%' }
+  }
+);
 </script>
 
 </body>
