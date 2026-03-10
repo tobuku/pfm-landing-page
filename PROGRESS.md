@@ -94,6 +94,7 @@ Removed temporarily. Section was: "Watch It in Action / See How ProveForMe Works
 - [ ] Consider adding a FAQ section
 - [ ] Set up Google Analytics or similar tracking
 - [ ] A/B test CTA button copy
+- [ ] **NEXT SESSION:** Build email campaign using `proveforus.com` as the CTA link to measure landing page conversion from email traffic
 
 ---
 
