@@ -27,16 +27,17 @@ ProveForUs.com exists solely as a conversion landing page to sign up:
 
 ## Page Sections (in order)
 1. **Navigation** — sticky nav, logo, How It Works / Use Cases / For Investors links, Sign In + Create Account CTA
-2. **Hero** — centered headline, subheadline, dual CTAs, dashboard mockup with real before/after photos
+2. **Hero** — centered headline, italic cost tagline, subheadline, dual CTAs, dashboard mockup with real before/after photos
 3. **Stat Bar** — 48hr / 100% / GPS / Skip the Trip
 4. **Problem Section** — 3 pain point cards (travel cost, slow inspectors, draw delays)
-5. **Solution Section** — 3 benefit cards (fast, independent, cost-effective)
-6. **How It Works** — 4-step process with animated connector line
-7. **Use Cases** — 6 cards (rehab verify, condition check, lender docs, occupancy, rental monitoring, pre-closing)
-8. **Marketplace (Two Sides)** — Investor card + Boots on the Ground card with CTAs
-9. **Trust Section** — 4 trust badges (GPS, Stripe, Independent, Clear Instructions)
-10. **Final CTA** — dual buttons, "no credit card required"
-11. **Footer** — logo, nav links, copyright
+5. **ROI Comparison Table** — side-by-side: flight vs. draw inspection vs. ProveForMe (cost + turnaround)
+6. **Solution Section** — 3 benefit cards (fast, independent, cost-effective)
+7. **How It Works** — 4-step process with animated connector line
+8. **Use Cases** — 8 cards (stop failed inspections ★, rehab verify, condition check, lender docs, occupancy, rental monitoring, pre-closing, catch what others miss ★)
+9. **Marketplace (Two Sides)** — Investor card + Boots on the Ground card with CTAs
+10. **Trust Section** — 4 trust badges (GPS, Stripe, Independent, Clear Instructions)
+11. **Final CTA** — dual buttons, "no credit card required"
+12. **Footer** — logo, nav links, copyright
 
 ---
 
@@ -72,6 +73,44 @@ All animations use **GSAP 3.12.5 + ScrollTrigger** via CDN (no build tools).
 
 ---
 
+## Marketing Strategy (from session 2026-03-16)
+
+### Positioning
+- **Primary message:** "See your rehab. Not just hear about it."
+- **One-liner:** ProveForMe is the on-demand property verification platform that gives remote investors independent, GPS-verified eyes on the ground — faster and cheaper than any alternative.
+- **For Boots on the Ground:** "Get paid to be the local eyes investors can't afford to ignore."
+
+### Key Value Proposition — Draw Inspection Cost Savings
+**IMPORTANT — Accurate HML Inspector flow:**
+- Hard money lenders require their OWN inspector to inspect and approve designated items before releasing a draw. ProveForMe does NOT replace that inspector.
+- HML inspector fees: **$125–$150 per visit**, charged whether the work passes or not.
+- If the GC's work is incomplete and the HML inspector shows up, the investor pays the full $125–$150 fee AND has to schedule another inspection (and pay again).
+- ProveForMe value: A $25–$75 "trust but verify" check-in confirms the phase is fully complete *before* the investor calls the HML inspector — preventing the cost of a failed/repeat visit.
+- Tagline: "ProveForMe doesn't replace your lender's inspector — it makes sure the work is done before you call one."
+
+### Key Value Proposition — Catch What Others Miss
+GCs focus on their contracted scope. HML inspectors check only designated draw items. Neither is tasked with — or looking for — issues like:
+- Leaning or encroaching trees
+- Gate issues or perimeter problems
+- Property changes that surface between scheduled visits
+- Issues a property manager wouldn't notice or report
+
+These are real problems experienced by remote/out-of-state investors (including founder's personal experience). ProveForMe gives trusted, independent eyes on the **full picture** — not just the checklist. This is a major differentiator vs. any inspector or GC.
+
+### Social Media Content Pillars
+1. **Draw Inspection Hook** — "Did you know your hard money lender charges for every draw inspection? Use ProveForMe to verify before you call."
+2. **Origin Story** — "A hard money lender asked me one question I couldn't answer: 'Who's your boots on the ground?' That question built ProveForMe."
+3. **BG Recruitment** — "Earn cash this weekend without a 9-to-5. Get paid to take photos/videos for remote investors near you."
+4. **Myth vs. Reality Carousel** — Myth: "I have to fly out." Reality: Local BG delivers GPS-verified photos in 48 hours for a fraction of the cost.
+5. **Lender Trust Angle** — "Your lender doesn't take your word for it — they want GPS-stamped, time-verified, third-party proof. That's ProveForMe."
+
+### Best Platforms
+- **Facebook Groups** — Real estate investor groups are the fastest organic channel
+- **Instagram / TikTok** — Short Reels showing before/after proof concept
+- **LinkedIn** — For serious investors and hard money lenders
+
+---
+
 ## Decisions & Notes
 
 ### Stat Bar — "Skip the Trip"
@@ -94,7 +133,9 @@ Removed temporarily. Section was: "Watch It in Action / See How ProveForMe Works
 - [ ] Consider adding a FAQ section
 - [ ] Set up Google Analytics or similar tracking
 - [ ] A/B test CTA button copy
-- [ ] **NEXT SESSION:** Build email campaign using `proveforus.com` as the CTA link to measure landing page conversion from email traffic
+- [ ] Build email campaign using `proveforus.com` as the CTA link to measure landing page conversion from email traffic
+- [ ] Build out social media content calendar (5 pillars documented in Marketing Strategy section above)
+- [ ] Create content for the origin story post (the hard money lender question hook)
 
 ---
 
@@ -105,3 +146,5 @@ Removed temporarily. Section was: "Watch It in Action / See How ProveForMe Works
 | Launch | Full 9-section landing page, all CTA links to /register, logo integrated |
 | Photos + Login | Real before/after property photos, Sign In → /login |
 | GSAP + Polish | Full GSAP animation suite, hero centering, stat fix, video section removed |
+| Marketing Update | Hero cost tagline, ROI comparison table (new section), "Stop Failed Inspections" use case card, marketing strategy docs in PROGRESS.md |
+| Accuracy + Selling Points | Fix HML inspector accuracy ($125–$150, pass or fail), add "Catch What Others Miss" use case card, update ROI table and problem card copy, remove inaccurate hero tagline claim |
