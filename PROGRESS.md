@@ -111,6 +111,92 @@ These are real problems experienced by remote/out-of-state investors (including 
 
 ---
 
+## Top 10 Promotion Channels (Researched 2026-03-16)
+
+### #1 — BiggerPockets Rehabbing & Flipping Forum
+- **URL:** https://www.biggerpockets.com/forums/67-rehabbing-and-flipping-forum
+- **Audience:** Investors
+- **Reach:** 3M+ platform members, 210K+ forum posts
+- **Tactic:** Value posts + case studies on draw inspection failures. Also list in BP Professional Services Directory (paid).
+- **Hook:** "My HML charges $125 every time their inspector shows up — even when the contractor isn't done. Here's how I've passed 4 draws in a row on the first try."
+- **Rules:** No overt self-promotion. Build 10–20 helpful posts before inserting product mentions.
+
+### #2 — r/realestateinvesting (Reddit)
+- **URL:** https://www.reddit.com/r/realestateinvesting/
+- **Audience:** Investors
+- **Reach:** 1.5M subscribers
+- **Tactic:** Problem/solution story post. Comment authentically on threads about HML loans, remote investing, rehab management.
+- **Hook:** "Remote investors: how are you verifying rehab progress between draw inspections without flying out or trusting a contractor's word?"
+- **Rules:** Strict anti-spam. New accounts get filtered. No direct promotional posts.
+
+### #3 — Facebook: "Wholesaling Houses Full Time"
+- **URL:** https://www.facebook.com/groups/WholesalingFT/
+- **Audience:** Investors
+- **Reach:** Largest wholesaler FB group online
+- **Tactic:** Participate 1–2 weeks first. Post scenario thread asking about draw inspection pain. Message admin about sponsored post slots.
+- **Hook:** "When your HML inspector shows up and work isn't done, you lose the draw AND pay $125+ anyway. Here's how flippers are pre-verifying."
+- **Rules:** Read pinned rules. Most groups allow tool posts on designated days.
+
+### #4 — Connected Investors
+- **URL:** https://connectedinvestors.com/
+- **Audience:** Both (Investors + Boots on the Ground)
+- **Reach:** 500K–2M members
+- **Tactic:** Create company profile, post in Hard Money & Fix-and-Flip forums, contact for paid/sponsored listing. BG recruitment in "Bird Dogs" sections.
+- **Rules:** Commercial promotion more accepted here than Reddit/BP, but account standing matters.
+
+### #5 — 7 Figure Flipping Podcast (Guest Pitch)
+- **URL:** https://www.7figureflipping.com/podcast
+- **Audience:** Investors (serious 6–7 figure flippers)
+- **Reach:** 31,700+ FB followers, top fix-and-flip podcast
+- **Tactic:** Pitch as guest with founder story. Contact: contact@7figureflipping.com. Alternatively pitch for paid mid-roll sponsorship.
+- **Hook:** "I realized every failed draw inspection is a $125+ tax on remote investors who could verify for under $50 with a local photographer."
+- **Rules:** Must be founder/operator story — no pure product pitches.
+
+### #6 — r/sidehustle (Reddit) — FOR BOOTS ON THE GROUND
+- **URL:** https://www.reddit.com/r/sidehustle/
+- **Audience:** Boots on the Ground
+- **Reach:** 3.1M subscribers
+- **Tactic:** Post as a user who found a new gig type — NOT as the company. "I've been doing a side hustle visiting houses, taking GPS-tagged photos for out-of-state investors — $30–$75 per property, paid via Stripe."
+- **Rules:** No direct solicitation. First-person "gig I found" posts are allowed and perform very well.
+
+### #7 — National REIA Network (Chapters + Newsletter)
+- **URL:** https://nationalreia.org/ | Chapters: https://nationalreia.org/find-a-reia/
+- **Audience:** Investors (primary), BG recruitable at local meetings
+- **Reach:** 40,000 dues-paying members, 120+ local chapters
+- **Tactic:** Sponsor National REIA newsletter. Contact local chapter leaders for 10-min guest presenter slot (in person or Zoom). Frame as draw-inspection optimization strategy.
+- **Hook:** "Raise your hand if you've paid for a draw inspection that failed because the contractor wasn't done. [Pause.] I built a tool for exactly that problem."
+- **Rules:** Each chapter independently operated. Some charge vendor fees. Pre-arrange with organizer.
+
+### #8 — Facebook: "Real Estate Investors Group"
+- **URL:** https://www.facebook.com/groups/realestategrouponline/
+- **Audience:** Investors
+- **Reach:** 131,000 members
+- **Tactic:** Problem/solution thread — ask what their process is for remote rehab verification, then follow up with ProveForMe answer in comments. Also targetable via Facebook Ads.
+- **Hook:** "Has anyone had a HML draw inspection fail because the contractor wasn't done? What did it cost you? This is a silent killer for flip margins."
+
+### #9 — Flipping Mastery TV — Jerry Norton (YouTube)
+- **URL:** https://www.youtube.com/c/FlippingMasteryTV
+- **Audience:** Investors + BG recruitment
+- **Reach:** 500K+ subscribers, 45M+ total views
+- **Tactic:** Strategic comments on rehab/contractor/draw videos. Pitch team for sponsorship at https://flippingmastery.com. YouTube pre-roll ads targeted at fix-and-flip viewers.
+- **Hook (comment):** "For draw inspection timing — ProveForMe.com lets locals take GPS-verified rehab photos before you call your HML inspector. Saves a lot of failed inspection fees."
+
+### #10 — Facebook: "Private Money for Real Estate Investors" (HIGHEST INTENT)
+- **URL:** https://www.facebook.com/groups/370850469716283/
+- **Audience:** Investors — specifically hard money borrowers
+- **Reach:** 22,000 hyper-targeted members
+- **Tactic:** Case study post + admin partnership for tool demo or Live Q&A. Ask a data-driven question about draw inspection failure rates to spark discussion.
+- **Hook:** "If your HML charges $125–$150 per inspection visit whether work is done or not, you need a way to verify before you make that call."
+- **Rules:** Keep content tightly focused on the HML/private lending angle. Admin approval likely required for commercial posts.
+
+### Priority Actions — Start This Week
+1. **BiggerPockets Pro listing** — list ProveForMe in Professional Services directory
+2. **Reddit double post** — "failed draw inspection" story on r/realestateinvesting + "new gig" on r/sidehustle
+3. **7 Figure Flipping guest pitch** — email contact@7figureflipping.com with founder story
+4. **Private Money FB group** — join and post a data-driven draw inspection question (highest-intent investor audience on this list)
+
+---
+
 ## Decisions & Notes
 
 ### Stat Bar — "Skip the Trip"
