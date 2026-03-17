@@ -148,3 +148,4 @@ Removed temporarily. Section was: "Watch It in Action / See How ProveForMe Works
 | GSAP + Polish | Full GSAP animation suite, hero centering, stat fix, video section removed |
 | Marketing Update | Hero cost tagline, ROI comparison table (new section), "Stop Failed Inspections" use case card, marketing strategy docs in PROGRESS.md |
 | Accuracy + Selling Points | Fix HML inspector accuracy ($125–$150, pass or fail), add "Catch What Others Miss" use case card, update ROI table and problem card copy, remove inaccurate hero tagline claim |
+| Em Dash Removal | Removed all em dashes from landing page copy, replaced with commas or periods |
