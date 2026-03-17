@@ -322,6 +322,74 @@ Removed temporarily. Section was: "Watch It in Action / See How ProveForMe Works
 
 ---
 
+## BiggerPockets Strategy (2026-03-16)
+
+### Account Setup
+- Signed up under **Business** category (correct — ProveForMe is a service provider, not an investment portfolio)
+- Selected **Software** as primary service type, also checked Photography and Inspector
+- Chose **free investor account** to start — build credibility with 15–20 genuine posts before upgrading to paid Business tier
+- Profile is partially complete — needs LinkedIn, profile photo, investment history, and social pages before fully publishing
+
+### BP Profile Checklist (Return When Ready)
+- [ ] Profile photo
+- [ ] LinkedIn profile created and linked
+- [ ] Real estate occupation: "Founder & Real Estate Tech Developer"
+- [ ] About section written (draft in session notes below)
+- [ ] Interests selected: Fix and Flip, Hard Money Lending, Remote Investing, Rehabbing, Property Management, Out-of-State Investing
+- [ ] 1–2 investments/projects listed
+- [ ] At least 1 reference from a ProveForMe user
+- [ ] ProveForMe Facebook and Instagram pages created and linked
+
+### BP About Section Draft
+> Remote real estate investor and founder of ProveForMe.com — an on-demand marketplace that connects out-of-state investors with verified local Boots on the Ground for GPS-stamped property verification and rehab progress photos.
+>
+> Built after a hard money lender asked me a question I couldn't answer: "Who's your boots on the ground monitoring this rehab?"
+>
+> Now helping remote investors verify rehab progress before calling their HML inspector — so draws go through on the first visit.
+
+### Forum Engagement Strategy
+- Build 15–20 genuine helpful posts before mentioning ProveForMe
+- Target threads about: remote investing, contractor management, draw inspection delays, out-of-state flipping
+- Style: short, confident, experienced — add value others haven't already covered
+- Example comment posted on r/realestateinvesting (2026-03-16): HOA estoppel letter tip on a cash purchase thread — humanized with "friends don't let friends buy HOA properties" opener
+
+---
+
+## Restart Prompt (Next Session)
+
+```
+We are working on the marketing and growth strategy for ProveForMe.com,
+a SaaS marketplace that connects remote real estate investors with local
+"Boots on the Ground" who provide GPS-verified property photos and video
+on demand. The conversion landing page is ProveForUs.com (GitHub Pages).
+
+Please read PROGRESS.md in this project for full context — it contains:
+- Complete landing page section breakdown
+- Marketing positioning and key value propositions
+- Top 10 promotion channels with hooks, rules, and tactics
+- Ready-to-post Reddit copy for r/realestateinvesting and r/sidehustle
+- BiggerPockets account setup status and profile checklist
+- All commit history and decisions made
+
+Where we left off (2026-03-16):
+- Landing page is live at proveforus.com and fully up to date
+- BiggerPockets account created (free tier) — profile incomplete, needs
+  LinkedIn, photo, investments, and social pages before posting
+- Reddit account subscribed to r/realestateinvesting — first comment
+  posted (HOA estoppel tip, humanized, no ProveForMe mention yet)
+- Reddit post copy ready for both r/realestateinvesting and r/sidehustle
+  but NOT yet posted — waiting for right moment/thread
+
+Next priorities:
+1. Complete BiggerPockets profile (checklist in PROGRESS.md)
+2. Post the r/realestateinvesting founder story thread
+3. Post the r/sidehustle BG recruitment thread
+4. Email contact@7figureflipping.com with guest pitch
+5. Join Facebook "Private Money for Real Estate Investors" group
+```
+
+---
+
 ## Commit History Summary
 | Commit | Changes |
 |--------|---------|
