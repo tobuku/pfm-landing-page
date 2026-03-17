@@ -294,6 +294,113 @@ for side income?
 
 ---
 
+## HML Outreach Copy (Drafted 2026-03-16)
+
+Four formats ready to deploy targeting hard money lenders as a referral source.
+**Strategic logic:** One HML who recommends ProveForMe to their borrowers = potentially 50-200 active rehab projects reached with zero additional marketing spend.
+
+**Who to target:**
+- Search LinkedIn: "Hard money lender Texas", "Private lender San Antonio", "Fix and flip lender Texas"
+- AAPL member directory: aaplonline.com
+- Specific targets: Longhorn Investments, Capital Concepts, DFW Hard Money
+
+---
+
+### HML Format 1 — LinkedIn Cold DM (Short, first touch)
+
+**Subject:** Reduce your borrowers' failed draw inspection costs
+
+Hi [Name],
+
+I noticed you're active in the Texas hard money space — wanted to share something quick that might be worth passing along to your borrowers.
+
+We built ProveForMe.com after experiencing this firsthand: a GC says a phase is done, the HML inspector shows up, the work isn't complete, and the borrower pays $125-$150 for a failed visit — then has to schedule and pay again.
+
+ProveForMe lets borrowers hire a local person to verify and photograph the completed work before they call for a draw inspection. $25-$75. Delivered in 2-48 hours.
+
+It doesn't replace your inspector — it makes sure the work is actually done before you send one. Fewer failed visits, fewer delayed draws, less friction for everyone.
+
+If it's useful to your borrowers, happy to set you up with a quick walkthrough or a referral link to share. No cost to you.
+
+[Your name]
+ProveForMe.com
+
+---
+
+### HML Format 2 — LinkedIn DM (Long, for engaged/active LinkedIn users)
+
+**Subject:** Something your borrowers are probably losing money on right now
+
+Hi [Name],
+
+Quick question — when your borrowers request a draw inspection and the work isn't fully done, do they still pay your inspector's visit fee?
+
+In most cases the answer is yes. $125-$150, whether it passes or not.
+
+It's one of those silent costs in rehab lending that nobody talks about but every active borrower has experienced. GC says "we're good," borrower calls for the inspection, inspector shows up, something's not done — and now the borrower is out the fee plus 2-5 more days waiting for a reschedule.
+
+I built ProveForMe.com to solve exactly that. It's a marketplace where remote or out-of-state investors can hire a local person — boots on the ground — to visit the property, photograph the completed phase, and send back GPS-stamped proof before the borrower ever calls for a draw.
+
+$25-$75 per check-in. Results in 2-48 hours.
+
+For your borrowers it's simple math: a $50 ProveForMe check-in before the inspection call can prevent a $150 failed visit fee. It also catches things GCs and inspectors aren't looking for — encroaching trees, gate issues, undocumented property changes — that show up between visits.
+
+I'm not asking you to integrate anything or change your process. Just wanted to see if this is something worth sharing with your active borrowers. If even a few of them avoid one failed draw inspection, that's real money back in their projects.
+
+Happy to send over a one-pager or jump on a 15-minute call if you want to see it.
+
+[Your name]
+ProveForMe.com
+
+---
+
+### HML Format 3 — LinkedIn Post (Publish to your feed to attract inbound HML interest)
+
+Hard money lenders: here's a silent cost your borrowers are absorbing that you might not be thinking about.
+
+Your draw inspector charges $125-$150 per visit. Pass or fail.
+
+When a GC tells a remote investor "we're ready" and they're not — the borrower pays the full fee, the draw doesn't go through, and now everyone's timeline slips.
+
+It happens more than people admit. And it's expensive.
+
+We built ProveForMe.com after experiencing this problem firsthand. It's a simple marketplace: remote investors hire a local person to visit the property, photograph and video the completed phase, and send GPS-stamped proof — before the draw inspection is ever called.
+
+$25-$75 per check-in. 2-48 hour turnaround.
+
+It doesn't replace your inspector. It makes sure the work is done before you send one.
+
+If you're working with out-of-state borrowers managing active rehabs, this is worth knowing about. Happy to connect with any HML who wants to share it with their borrowers or explore a referral arrangement.
+
+proveforus.com
+
+---
+
+### HML Format 4 — Email Outreach (for HML companies with listed contact info)
+
+**Subject:** Tool to reduce failed draw inspection costs for your borrowers
+
+Hi [Name],
+
+I'll keep this brief.
+
+Your borrowers are paying $125-$150 for draw inspections whether the work is complete or not. When a GC oversells their progress and your inspector shows up to an incomplete phase, that cost gets absorbed — and the draw gets delayed.
+
+I built ProveForMe.com to give remote investors a $25-$75 solution: a local person visits the property, photos and videos the completed work, and sends GPS-stamped proof before the borrower ever calls for an inspection.
+
+It's not a replacement for your inspector. It's a pre-inspection step that makes sure the work is actually done first.
+
+For lenders working with out-of-state borrowers, it reduces friction, prevents failed visits, and keeps rehab timelines moving.
+
+I'd like to explore whether there's a referral arrangement that makes sense for your company — even just including ProveForMe in your borrower onboarding materials at no cost to you.
+
+Would you be open to a 15-minute call this week?
+
+[Your name]
+ProveForMe.com | [phone]
+
+---
+
 ## Decisions & Notes
 
 ### Stat Bar — "Skip the Trip"
@@ -361,31 +468,43 @@ Removed temporarily. Section was: "Watch It in Action / See How ProveForMe Works
 We are working on the marketing and growth strategy for ProveForMe.com,
 a SaaS marketplace that connects remote real estate investors with local
 "Boots on the Ground" who provide GPS-verified property photos and video
-on demand. The conversion landing page is ProveForUs.com (GitHub Pages).
+on demand. The conversion landing page is ProveForUs.com (GitHub Pages,
+repo: tobuku/pfm-landing-page).
 
-Please read PROGRESS.md in this project for full context — it contains:
-- Complete landing page section breakdown
-- Marketing positioning and key value propositions
-- Top 10 promotion channels with hooks, rules, and tactics
+Please read PROGRESS.md in this project folder for full context. It contains:
+- Complete landing page section breakdown (12 sections, all live)
+- Marketing positioning and both key value propositions
+  (HML draw inspection cost savings + Catch What Others Miss)
+- Top 10 promotion channels with hooks, tactics, and posting rules
 - Ready-to-post Reddit copy for r/realestateinvesting and r/sidehustle
 - BiggerPockets account setup status and profile checklist
+- HML outreach copy — 4 formats (LinkedIn DM short, LinkedIn DM long,
+  LinkedIn post, email) — drafted and ready to send
 - All commit history and decisions made
 
 Where we left off (2026-03-16):
-- Landing page is live at proveforus.com and fully up to date
-- BiggerPockets account created (free tier) — profile incomplete, needs
-  LinkedIn, photo, investments, and social pages before posting
-- Reddit account subscribed to r/realestateinvesting — first comment
-  posted (HOA estoppel tip, humanized, no ProveForMe mention yet)
-- Reddit post copy ready for both r/realestateinvesting and r/sidehustle
-  but NOT yet posted — waiting for right moment/thread
+- Landing page is live and fully up to date at proveforus.com
+- Top 10 marketing channels researched with specific URLs, audience sizes,
+  hooks, and rules
+- HML outreach copy fully drafted in 4 formats — NOT yet sent
+- BiggerPockets account created (free tier) — profile incomplete, needs:
+  LinkedIn profile, profile photo, investments listed, social pages linked
+- Reddit strategy planned — first comment posted on r/realestateinvesting
+  (HOA estoppel tip, no ProveForMe mention yet — building karma)
+- Reddit post copy written and ready for both subs — NOT yet posted
 
-Next priorities:
-1. Complete BiggerPockets profile (checklist in PROGRESS.md)
-2. Post the r/realestateinvesting founder story thread
-3. Post the r/sidehustle BG recruitment thread
-4. Email contact@7figureflipping.com with guest pitch
-5. Join Facebook "Private Money for Real Estate Investors" group
+Next priorities (in order):
+1. Send HML outreach — start with LinkedIn DM (short format) to 5-10
+   Texas HMLs; search LinkedIn for "hard money lender Texas" and
+   "private lender San Antonio"
+2. Complete BiggerPockets profile (checklist in PROGRESS.md)
+3. Post the r/realestateinvesting founder story thread (copy ready in
+   PROGRESS.md — "Hard money lender asked me one question...")
+4. Post the r/sidehustle BG recruitment thread (copy ready in PROGRESS.md)
+5. Email contact@7figureflipping.com with guest pitch
+6. Join and intro post in Facebook "Private Money for Real Estate Investors"
+   group (22K hyper-targeted HML borrowers)
+7. Join Texas REIAs (paid membership) for San Antonio Facebook group access
 ```
 
 ---
@@ -400,3 +519,4 @@ Next priorities:
 | Marketing Update | Hero cost tagline, ROI comparison table (new section), "Stop Failed Inspections" use case card, marketing strategy docs in PROGRESS.md |
 | Accuracy + Selling Points | Fix HML inspector accuracy ($125–$150, pass or fail), add "Catch What Others Miss" use case card, update ROI table and problem card copy, remove inaccurate hero tagline claim |
 | Em Dash Removal | Removed all em dashes from landing page copy, replaced with commas or periods |
+| Marketing Research | Top 10 promotion channels researched with audience sizes, hooks, tactics, rules. HML outreach copy drafted in 4 formats (LinkedIn DM x2, LinkedIn post, email). Restart prompt updated. |
