@@ -189,6 +189,103 @@ These are real problems experienced by remote/out-of-state investors (including 
 - **Hook:** "If your HML charges $125–$150 per inspection visit whether work is done or not, you need a way to verify before you make that call."
 - **Rules:** Keep content tightly focused on the HML/private lending angle. Admin approval likely required for commercial posts.
 
+### Reddit Post Copy (Ready to Use)
+
+#### r/realestateinvesting
+**Title:** `Hard money lender asked me one question I couldn't answer. It changed how I invest remotely.`
+
+**Body:**
+```
+A few years ago I was sitting across from a hard money lender trying
+to close on my first out-of-state fix and flip. Everything was going
+fine until he asked:
+
+"Who's going to be your boots on the ground monitoring the rehab?"
+
+I didn't have an answer. I figured I'd just trust the contractor,
+check in by phone, and fly out if something went wrong. He wasn't
+satisfied with that and honestly — he was right not to be.
+
+That question stuck with me through the whole project. And I learned
+the hard way why it matters.
+
+My contractor kept telling me phases were done. I'd request a draw.
+The HML inspector would show up. Work wasn't finished. I'd pay the
+$125-$150 inspection fee anyway, wait for the contractor to actually
+finish, then pay it again on the re-visit.
+
+This happened more than once.
+
+The real problem wasn't the contractor — it was that I had no
+independent way to verify progress before making that call. I was
+flying blind and paying for it.
+
+Eventually I started paying locals I found through Craigslist and
+Facebook to stop by the property and send me photos before I called
+the inspector. Sketchy, unreliable, no accountability — but it worked
+well enough that I realized there had to be a better way.
+
+So I built one. ProveForMe.com is a marketplace where remote investors
+post property verification requests and local Boots on the Ground
+accept them, visit the property, and upload GPS-stamped photos and
+video. Payment goes through Stripe escrow — released only when you
+approve the photos.
+
+$25-$75 per visit. Results in 48 hours or less.
+
+For anyone managing rehabs remotely — curious how you're currently
+handling this. Are you just trusting your GC? Flying out? Using a
+property manager? I know I'm not the only one who's paid for a failed
+inspection they could have avoided.
+```
+
+#### r/sidehustle
+**Title:** `Found a niche gig: getting paid to photograph houses for out-of-state real estate investors`
+
+**Body:**
+```
+This one's pretty niche but wanted to share because it's legitimately
+easy money if you live near houses being renovated.
+
+The basic idea: remote real estate investors can't physically check on
+their properties during renovations. They need someone local to stop
+by, take photos and a short video, and confirm the work is progressing.
+That's it.
+
+There's a platform called ProveForMe.com that matches these investors
+with local people (they call them "Boots on the Ground") who accept
+these jobs.
+
+Here's how it works from the earner side:
+- You browse available jobs near your zip code
+- Accept one that works for you
+- Visit the property, take the required photos/video
+- Upload them through the platform
+- Investor reviews and approves
+- You get paid via Stripe
+
+Pay ranges from $25-$75 per visit depending on what's requested.
+Most visits take 30-45 minutes including drive time if you're local.
+
+No special skills or license required — just a smartphone and the
+ability to follow photo instructions (they tell you exactly what
+to capture).
+
+It's not going to replace a full-time income but if you're already
+driving around your city or want something truly flexible with no
+schedule, it's a solid addition to the rotation.
+
+Sign up at ProveForMe.com under "Boots on the Ground" if you want
+to check what jobs are available in your area.
+
+Anyone else doing anything similar in the property/real estate space
+for side income?
+```
+
+**Note on r/sidehustle post:** Since Paul is the founder, add a comment if anyone asks: *"Disclosure: I built this platform after doing this myself the scrappy way through Craigslist."* Transparency plays well on Reddit and reinforces the origin story.
+
+---
+
 ### Priority Actions — Start This Week
 1. **BiggerPockets Pro listing** — list ProveForMe in Professional Services directory
 2. **Reddit double post** — "failed draw inspection" story on r/realestateinvesting + "new gig" on r/sidehustle
